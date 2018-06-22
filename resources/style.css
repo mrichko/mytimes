@@ -37,6 +37,7 @@ nav span {
 .content {
   display: flex;
   border: solid 1px black;
+  justify-content: space-around;
 }
 
 .section .large {
@@ -49,6 +50,8 @@ nav span {
   flex-direction: column;
   align-content: center;
   padding-top: 40px;
+  width: 630px;
+
 }
 
 .large span {
@@ -70,6 +73,7 @@ nav span {
   border: solid 3px black;
   align-content: center;
   padding-top: 40px;
+  width: 300px;
 }
 
 .medium span {
@@ -85,6 +89,7 @@ nav span {
   display: flex;
   flex-direction: column;
   border: solid 1px black;
+  width: 300px;
 }
 
 .section.small {
