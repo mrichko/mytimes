@@ -1,3 +1,7 @@
+body {
+  display: block;
+}
+
 header {
   display: flex;
   font-family: Verdana;
@@ -16,10 +20,14 @@ header {
   padding-left: 30px;
   color: MediumAquamarine;
   border: solid 1px black;
+}
 
+.logo span {
+  display: flex;
 }
 
 .logo img {
+  display: flex;
   margin-right: 12px;
 }
 
@@ -38,10 +46,8 @@ nav span {
   display: flex;
   border: solid 1px black;
   justify-content: space-around;
-}
-
-.section .large {
-  width: 630px;
+  padding-top: 20px;
+  flex: 1;
 }
 
 .large {
@@ -51,7 +57,6 @@ nav span {
   align-content: center;
   padding-top: 40px;
   width: 630px;
-
 }
 
 .large span {
@@ -63,17 +68,38 @@ nav span {
   border: solid 3px black;
 }
 
-.section.medium {
-  width: 300px;
+.mainstory {
+  flex-direction: column;
+  flex: 1;
 }
 
+.mainstory .image1 {
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+  width: 630px;
+
+}
+
+.image1 {
+  display: flex;
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+.report {
+  display: flex;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
 .medium {
   display: flex;
   flex-direction: column;
   border: solid 3px black;
   align-content: center;
-  padding-top: 40px;
   width: 300px;
+  justify-content: flex-start;
 }
 
 .medium span {
@@ -81,26 +107,61 @@ nav span {
   border: solid 1px black;
 }
 
-.section.small {
-  width: 300px;
+.medium .story4 {
+  display: block;
+  align-content: flex-start;
+  flex-direction: column;
+
 }
 
 .small {
   display: flex;
   flex-direction: column;
   border: solid 1px black;
-  width: 300px;
+  width: 240px;
+  justify-content: flex-start;
 }
 
-.section.small {
-  width: 240px;
-}
 
 .story6 {
   border: solid 1px black;
   display: block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
 }
 
-img {
+.story6 span {
+  display: block;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+h3 {
+  display: block;
+  text-align: left;
+}
+
+.cookiebite {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
   border: solid 1px black;
+}
+
+
+
+.bite {
+  text-align: center;
+}
+
+.cookie {
+  border: solid 1px black;
+  height: 240px;
+  justify-content: flex-start;
+}
+
+.title {
+  display: flex;
 }
