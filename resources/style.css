@@ -1,5 +1,6 @@
 body {
   display: block;
+  margin: 0;
 }
 
 header {
@@ -127,11 +128,8 @@ nav span {
 
 .medium {
   display: flex;
-  position: static;
   flex-direction: column;
-  align-content: center;
   width: 300px;
-  justify-content: flex-start;
   padding-top: 40px;
 }
 
@@ -164,7 +162,6 @@ nav span {
   display: flex;
   flex-direction: column;
   width: 240px;
-  justify-content: flex-start;
   padding-top: 40px;
 }
 
