@@ -58,13 +58,14 @@ nav span {
   flex-direction: column;
   padding-top: 40px;
   width: 630px;
+  z-index: 1;
 }
 
 
 .articles {
   display: flex;
   justify-content: space-between;
-  width: 300px;
+  margin-bottom: 20px;
 }
 
 .mainstory {
@@ -76,10 +77,9 @@ nav span {
 .mainstory .image1 {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
   font-size: 40px;
-  text-align: left;
   align-items: center;
-  padding-left: 20px;
 }
+
 
 .image1 {
   display: flex;
@@ -127,10 +127,12 @@ nav span {
 
 .medium {
   display: flex;
+  position: static;
   flex-direction: column;
   align-content: center;
   width: 300px;
   justify-content: flex-start;
+  padding-top: 40px;
 }
 
 .medium span {
@@ -163,6 +165,7 @@ nav span {
   flex-direction: column;
   width: 240px;
   justify-content: flex-start;
+  padding-top: 40px;
 }
 
 .story6 {
@@ -215,6 +218,9 @@ h3 {
 
 .title {
   display: flex;
+  font-size: 24px;
+  font-weight: bold;
+  font-style: georgia;
 }
 
 /*footer*/
